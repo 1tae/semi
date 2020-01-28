@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://blackrockdigital.github.io/startbootstrap-sb-admin-2/ -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>꿈나라어린이집 # 인트라넷</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="./intranet/all.min.css" rel="stylesheet" type="text/css">
+  <link href="./intranet/css" rel="stylesheet">
+  <link href="./intranet/1_content" rel="stylesheet">
+  
+
+  <!-- Custom styles for this template-->
+  <link href="./intranet/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel=" shortcut icon" href="image/favicon.ico">
+
+    <link rel="stylesheet" href="vendor/css/fullcalendar.min.css" />
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href='vendor/css/select2.min.css' />
+    <link rel="stylesheet" href='vendor/css/bootstrap-datetimepicker.min.css' />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - 로고 -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../intranet/intranet_main.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fa fa-smile"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">어린이집<br>인트라넷</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - 메인으로 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../intranet/intranet_main.html">
+          <i class="fa fa-home fa-2x"></i>
+          <span>메인으로</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- 메뉴 -->
+      <div class="sidebar-heading">
+        메뉴
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" data-toggle="collapse" data-target="#collapseRegister" aria-expanded="true" aria-controls="collapseRegister">
+          <i class="fa fa-address-book fa-2x"></i>
+          <span>등록</span>
+        </a>
+        <div id="collapseRegister" class="collapse" aria-labelledby="headingRegister" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">상세 메뉴</h6>
+            <a class="collapse-item" href="../intranet/intranet_registerStudent.html">원아등록</a>
+            <a class="collapse-item" href="../intranet/intranet_registerTeacher.html">교사등록</a>
+            <a class="collapse-item" href="../intranet/intranet_member.html">회원 관리</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - 홈페이지 관리 -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" data-toggle="collapse" data-target="#collapseHomepage" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fa fa-desktop fa-2x"></i>
+          <span>홈페이지 관리</span>
+        </a>
+        <div id="collapseHomepage" class="collapse" aria-labelledby="headingHomepage" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">상세 메뉴</h6>
+            <a class="collapse-item" href="../intranet/intranet_program_board.html">보육프로그램</a>
+            <a class="collapse-item" href="../intranet/intranet_album_board.html">앨범</a>
+            <a class="collapse-item" href="../intranet/intranet_community_board.html">가정통신문</a>            
+          </div>
+        </div>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        개인페이지
+      </div>
+      
+      <!-- Nav Item - 반 관리 -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" data-toggle="collapse" data-target="#collapseClass" aria-expanded="true" aria-controls="collapseClass">
+          <i class="fa fa-smile fa-2x"></i>
+          <span>반관리</span>
+        </a>
+        <div id="collapseClass" class="collapse" aria-labelledby="headingClass" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">상세 메뉴</h6>
+            <a class="collapse-item" href="../intranet/intranet_daily_board.html">교육일지</a>
+            <a class="collapse-item" href="../intranet/intranet_notice.html">알림장 확인</a>            
+            <a class="collapse-item" href="../intranet/intranet_advice_board.html">상담확인</a>            
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - 품의관리 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../intranet/intranet_pupCheck.html">
+          <i class="fa fa-calendar-alt fa-2x"></i>
+          <span>품의관리</span></a>
+      </li>
+
+      <!-- Nav Item - 일정관리 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../intranet/intranet_calender.html">
+          <i class="fa fa-calendar-alt fa-2x"></i>
+          <span>일정관리</span></a>
+      </li>
+
+       <!-- Divider -->
+       <hr class="sidebar-divider">
+
+       <!-- Heading -->
+       <div class="sidebar-heading">
+         정보수정
+       </div>
+
+       <!-- Nav Item - 개인정보수정 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../intranet/intranet_edit.html">
+          <i class="fa fa-user fa-2x"></i>
+          <span>개인정보수정</span></a>
+      </li>
+
+      <!-- Nav Item - 로그아웃 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../intranet/intranet_logout.html" data-toggle="modal" data-target="#logoutModal">
+          <i class="fa fa-sign-out fa-2x"></i>
+          <span>로그아웃</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Nav Item - 홈페이지 -->
+      <li class="nav-item">
+        <a class="nav-link" href="../homepage/mainpage.html">
+          <i class="fa fa-check-circle fa-2x"></i>
+          <span>홈페이지</span></a>
+      </li>
+
+     
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) 사이드바 숨기기-->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-angle-double-left fa-2x"></i>
+          </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+    
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+           
+            <!-- Nav Item - 아이상태알림 -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-child fa-2x"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  아이 상태 알림
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_notice_read3.html">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fa fa-child fa-2x text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">2020-01-20</div>
+                    <span class="font-weight-bold">홍달이 : 오늘 할머니가 데리러갈거에요</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_notice_read2.html">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-success">
+                      <i class="fa fa-child fa-2x text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">2020-01-20</div>
+                    박응애 : 감기약 같이 보냅니다
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_notice_read1.html">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fa fa-child fa-2x text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">2020-01-19</div>
+                    박응애 : 박응애 알림장입니다
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="../intranet/intranet_notice.html">더보기</a>
+              </div>
+            </li>
+
+            <!-- Nav Item - 품의 알림 -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-paperclip fa-2x"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">3</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                <h6 class="dropdown-header">
+                  결재 상태
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_pupCheck.html">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../intranet/image/a.png" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">교육일지 확인바랍니다.</div>
+                    <div class="small text-gray-500">한원장, 2020-01-20, 결재신청</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_pupCheck.html">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../intranet/image/woo.png" alt="">
+                    <div class="status-indicator bg-warning"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">휴가 신청 품의서입니다.</div>
+                    <div class="small text-gray-500">차은우, 2020-01-06, 반려</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../intranet/intranet_pupCheck.html">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../intranet/image/woo.png" alt="">
+                    <div class="status-indicator bg-warning"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">2019년 12월 지출결의서입니다.</div>
+                    <div class="small text-gray-500">차은우, 2019-12-30, 결재완료</div>
+                  </div>
+                </a>
+                
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="../intranet/intranet_pupCheck.html">더보기</a>
+              </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - 선생님 사진 -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/blank.html#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">차은우 선생님</span>
+                <img class="img-profile rounded-circle" src="../intranet/image/woo.png">
+              </a>
+
+              <!-- Dropdown - 선생님 인포메이션 -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item">
+                  <i>이름 : </i>
+                  <i name = "tName">차은우</i>
+                </a>
+                <a class="dropdown-item">
+                  <i>담당반 : </i>
+                  <i name = "className">1반</i>
+                </a>                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../intranet/intranet_logout" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fa fa-sign-out text-gray-400"></i>
+                  로그아웃
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+
+        <div class="container-fluid">
+          <!-- Page Heading -->
+          <h1 class="h3 mb-4 text-gray-800">일정관리</h1>
+
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">일정관리</h6>
+            </div>
+            <div class="card-body">
+              <div class="container">
+
+                <!-- 일자 클릭시 메뉴오픈 -->
+                <div id="contextMenu" class="dropdown clearfix">
+                    <ul class="dropdown-menu dropNewEvent" role="menu" aria-labelledby="dropdownMenu"
+                        style="display:block;position:static;margin-bottom:5px;">
+                        <li><a tabindex="-1" href="#">원내행사</a></li>
+                        <li><a tabindex="-1" href="#">교사일정</a></li>
+                        <li><a tabindex="-1" href="#">체험학습</a></li>
+                        <li><a tabindex="-1" href="#">행정일정</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#" data-role="close">Close</a></li>
+                    </ul>
+                </div>
+        
+                <div id="wrapper">
+                    <div id="loading"></div>
+                    <div id="calendar"></div>
+                </div>
+        
+        
+                <!-- 일정 추가 MODAL -->
+                <div class="modal fade" tabindex="-1" role="dialog" id="eventModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body">
+        
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-allDay">하루종일</label>
+                                        <input class='allDayNewEvent' id="edit-allDay" type="checkbox"></label>
+                                    </div>
+                                </div>
+        
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-title">일정명</label>
+                                        <input class="inputModal" type="text" name="edit-title" id="edit-title"
+                                            required="required" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-start">시작</label>
+                                        <input class="inputModal" type="text" name="edit-start" id="edit-start" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-end">끝</label>
+                                        <input class="inputModal" type="text" name="edit-end" id="edit-end" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-type">구분</label>
+                                        <select class="inputModal" type="text" name="edit-type" id="edit-type">
+                                            <option value="원내행사">원내행사</option>
+                                            <option value="교사일정">교사일정</option>
+                                            <option value="체험학습">체험학습</option>
+                                            <option value="행정일정">행정일정</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-color">색상</label>
+                                        <select class="inputModal" name="color" id="edit-color">
+                                            <option value="#D25565" style="color:#D25565;">빨간색</option>
+                                            <option value="#9775fa" style="color:#9775fa;">보라색</option>
+                                            <option value="#ffa94d" style="color:#ffa94d;">주황색</option>
+                                            <option value="#74c0fc" style="color:#74c0fc;">파란색</option>
+                                            <option value="#f06595" style="color:#f06595;">핑크색</option>
+                                            <option value="#63e6be" style="color:#63e6be;">연두색</option>
+                                            <option value="#a9e34b" style="color:#a9e34b;">초록색</option>
+                                            <option value="#4d638c" style="color:#4d638c;">남색</option>
+                                            <option value="#495057" style="color:#495057;">검정색</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <label class="col-xs-4" for="edit-desc">설명</label>
+                                        <textarea rows="4" cols="50" class="inputModal" name="edit-desc"
+                                            id="edit-desc"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer modalBtnContainer-addEvent">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                                <button type="button" class="btn btn-primary" id="save-event">저장</button>
+                            </div>
+                            <div class="modal-footer modalBtnContainer-modifyEvent">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                                <button type="button" class="btn btn-danger" id="deleteEvent">삭제</button>
+                                <button type="button" class="btn btn-primary" id="updateEvent">저장</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+        
+                <div class="panel panel-default">
+        
+                    <div class="panel-heading">
+                        <h3 class="panel-title">필터</h3>
+                    </div>
+        
+                    <div class="panel-body">
+        
+                        <div class="col-lg-6">
+                            <label for="calendar_view">구분별</label>
+                            <div class="input-group">
+                                <select class="filter" id="type_filter" multiple="multiple">
+                                    <option value="원내행사">원내행사</option>
+                                    <option value="교사일정">교사일정</option>
+                                    <option value="체험학습">체험학습</option>
+                                    <option value="행정일정">체험학습</option>
+                                </select>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-6">
+                            <label for="calendar_view">등록자별</label>
+                            <div class="input-group">
+                                <label class="checkbox-inline"><input class='filter' type="checkbox" value="공통"
+                                        checked>공통</label>
+                                <label class="checkbox-inline"><input class='filter' type="checkbox" value="원장"
+                                        checked>원장</label>
+                                <label class="checkbox-inline"><input class='filter' type="checkbox" value="교사"
+                                        checked>교사</label>
+                                <label class="checkbox-inline"><input class='filter' type="checkbox" value="영양사"
+                                        checked>영양사</label>
+                                <label class="checkbox-inline"><input class='filter' type="checkbox" value="시설관리자"
+                                        checked>시설관리자</label>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+                <!-- /.filter panel -->
+            </div>
+
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+       <!-- Footer -->
+       <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright © 꿈나라어린이집 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">로그아웃 하시겠습니까?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">로그아웃 버튼을 누르면 로그인페이지로 이동합니다.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">취소</button>
+          <a class="btn btn-primary" href="../intranet/intranet_logout.html">로그아웃</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="../intranet/intranet/jquery.min.js"></script>
+  <script src="../intranet/intranet/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="../intranet/intranet/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="../intranet/intranet/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../intranet/intranet/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../intranet/intranet/chart-area-demo.js"></script>
+  <script src="../intranet/intranet/chart-pie-demo.js"></script>
+
+  <script src="vendor/js/jquery.min.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/moment.min.js"></script>
+    <script src="vendor/js/fullcalendar.min.js"></script>
+    <script src="vendor/js/ko.js"></script>
+    <script src="vendor/js/select2.min.js"></script>
+    <script src="vendor/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/addEvent.js"></script>
+    <script src="js/editEvent.js"></script>
+    <script src="js/etcSetting.js"></script>
+
+
+
+</body></html>

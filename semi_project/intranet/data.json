@@ -1,0 +1,111 @@
+[{
+    "_id": 1,
+    "title": "식재료업체 공개입찰",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-01-20T09:30",
+    "end": "2019-01-20T15:00",
+    "type": "행정일정",
+    "username": "영양사",
+    "backgroundColor": "#D25565",
+    "textColor": "#ffffff",
+    "allDay": false
+  }, {
+    "_id": 2,
+    "title": "2월 생일파티",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-02-01T12:30",
+    "end": "2020-02-01T15:30",
+    "type": "원내행사",
+    "username": "공통",
+    "backgroundColor": "#9775fa",
+    "textColor": "#ffffff",
+    "allDay": false
+  }, {
+    "_id": 3,
+    "title": "원생 양치교육",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2019-05-12",
+    "end": "2019-05-12",
+    "type": "원내행사",
+    "username": "교사",
+    "backgroundColor": "#ffa94d",
+    "textColor": "#ffffff",
+    "allDay": true
+  }, {
+    "_id": 4,
+    "title": "소방안전점검",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-01-06",
+    "end": "2020-01-06",
+    "type": "행정일정",
+    "username": "시설관리자",
+    "backgroundColor": "#74c0fc",
+    "textColor": "#ffffff",
+    "allDay": true
+  }, {
+    "_id": 5,
+    "title": "청약 입금",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2019-12-20",
+    "end": "2019-12-20",
+    "type": "행정일정",
+    "username": "원장",
+    "backgroundColor": "#f06595",
+    "textColor": "#ffffff",
+    "allDay": true
+  }, {
+    "_id": 6,
+    "title": "스케이트장 체험학습",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2019-12-14",
+    "end": "2019-12-14",
+    "type": "체험학습",
+    "username": "교사",
+    "backgroundColor": "#63e6be",
+    "textColor": "#ffffff",
+    "allDay": true
+  }, {
+    "_id": 7,
+    "title": "방학",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-02-02",
+    "end": "2020-02-20",
+    "type": "원내행사",
+    "username": "공통",
+    "backgroundColor": "#a9e34b",
+    "textColor": "#ffffff",
+    "allDay": true
+  },{
+    "_id": 8,
+    "title": "입학식",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-02-28T09:00",
+    "end": "2020-02-28T10:00",
+    "type": "원내행사",
+    "username": "공통",
+    "backgroundColor": "#4d638c",
+    "textColor": "#ffffff",
+    "allDay": false
+  },{
+    "_id": 9,
+    "title": "교사회의",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-02-21",
+    "end": "2020-02-21",
+    "type": "교사일정",
+    "username": "교사",
+    "backgroundColor": "#495057",
+    "textColor": "#ffffff",
+    "allDay": true
+  },{
+    "_id": 10,
+    "title": "유치원생 롤 대회",
+    "description": "Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.",
+    "start": "2020-01-15",
+    "end": "2020-01-22",
+    "type": "원내행사",
+    "username": "원장",
+    "backgroundColor": "#9775fa",
+    "textColor": "#ffffff",
+    "allDay": true
+  }]

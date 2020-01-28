@@ -1,0 +1,87 @@
+.register{
+    width : 80%;      
+    border-radius:5px;
+    overflow-x: auto;
+}
+
+.student.form{
+    position : absolute;
+    height : 37%;    
+    top:15%;
+    padding-left:50px;
+    padding-right:50px;
+}
+.student.view{
+    position : absolute;
+    top: 55%;
+    height: 38%;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+.teacher.form{
+    position : absolute;
+    height : 26%;    
+    top:15%;
+}
+.teacher.view{
+    position : absolute;
+    top: 45%;
+    height: 45%;
+}
+
+
+.teacher.empty{
+    position : absolute;
+    top: 42%;
+    width : 80%;    
+    padding-left:50px;
+    padding-right:50px; 
+}
+
+table {
+    border-color: gray;
+    margin-top: 10px;
+    
+    width: 100%;
+    min-width : 1000px;
+    overflow-x : auto;
+   
+}
+table th{
+    text-align: center;
+}
+
+
+input[type="text"]{
+    width: 95%;
+}
+
+ BODY, TABLE, TD {
+     font-size:12px;
+}
+
+#albumAll{
+    height: 50px;
+    width: 130px;
+    background: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#albumClass{
+    height: 50px;
+    width: 130px;
+    background: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.scrollable-dropdown{
+    height: auto;
+    max-height:320px;  /* Increase / Decrease value as per your need */
+    overflow-x: hidden;
+}
