@@ -356,11 +356,14 @@
                             <option id="teacherGrade" name = "teacherGrade">조리원</option> 
                           </select>                  
                         </td>
-                        <th style="padding:0.2rem">개인번호</th>
+                        <th style="padding:0.2rem">직원코드</th>
                         <td style="padding:0.2rem">
                           <input type = "text" id = "teacherNum" name= "teacherNum">
                         </td>
-                        <td style="padding:0.2rem" colspan="2" rowspan = "4"><span class = "fa fa-smile fa-5x" style = "padding: 22%; padding-left: 29%;"></span></td>
+                        <td style="padding:0.2rem" colspan="2" rowspan = "5">
+                          <span class = "fa fa-smile fa-5x" style = "padding: 22%; padding-left: 29%;">
+                          </span>
+                        </td>
                       </tr>
                       <tr>
                         <th style="padding:0.2rem">주민번호</th>
@@ -378,9 +381,20 @@
                         </td>
                       </tr>
                       <tr>
-                        <th style="padding:0.2rem">주소</th>
+                        <th style="padding:0.2rem" rowspan="2">주소</th>
+                        <td style="padding:0.2rem">
+                          <input type="text" id="postalCode" name = "postalCode">
+                        </td>
+                        <td style="padding:0.2rem">
+                          <button type = "button" class = "btn btn-sm btn-primary ">우편번호</button>
+                        </td>
+                        <td style="padding:0.2rem" colspan="3">
+                          <input type = "text" id = "teacherAddress1" name = "teacherAddress1">
+                        </td>
+                      </tr>
+                      <tr>
                         <td style="padding:0.2rem" colspan="5">
-                          <input type = "text" id = "teacherAddress" name = "teacherAddress" style="width: 99%;">
+                          <input type = "text" id = "teacherAddress2" name = "teacherAddress2" style="width: 99%;">
                         </td>
                       </tr>
                       <tr>
@@ -452,8 +466,8 @@
                 <table id = "viewable" class="table table-striped">
                   <tr>
                     <th></th>
-                    <th>구분</th>
-                    <th>개인번호</th>
+                    <th>번호</th>
+                    <th>직원코드</th>
                     <th>직급</th>
                     <th>성명</th>
                     <th>연락처</th>

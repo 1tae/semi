@@ -342,6 +342,10 @@
                   <form action="" method="" name = "registerStudent">
                     <table class="table table-bordered" id="dataTable" width="100%" table-layout="fixed;" word-break="break-all;" cellspacing="0">
                       <tr>
+                        <th style="padding:0.2rem">학번</th>
+                        <td style="padding:0.2rem"> &nbsp;<input type = "text" id = "studentNum"></td>
+                      </tr>
+                      <tr>
                         <th style="padding:0.2rem">원아명</th>
                         <td colspan = "2"  style="padding:0.2rem">
                           <input type = "text" id = "studentName" name = "studentName">
@@ -377,30 +381,35 @@
                         <td style="padding:0.2rem">&nbsp;<input type = "date" id = "studentGraduation"></td>
                       </tr>
                       <tr>
-                        <th style="padding:0.2rem">주소</th>
-                        <td style="padding:0.2rem" colspan="6">&nbsp;<input type = "text" id = "studentAddress" style="width: 98%;"></td>
+                        <th style="padding:0.2rem" rowspan="2">주소</th>
+                        <td style="padding:0.2rem" colspan="3">
+                          <input type="text" id="postalCode" name = "postalCode">
+                        </td>
+                        <td style="padding:0.2rem">
+                          <button type = "button" class = "btn btn-sm btn-primary ">우편번호</button>
+                        </td>
+                        <td style="padding:0.2rem" colspan="2">
+                          <input type = "text" id = "studentAddress" name = "studentAddress">
+                        </td>
                       </tr>
                       <tr>
-                        <th style="padding:0.2rem">나이(만)</th>
+                        <td style="padding:0.2rem" colspan="6">&nbsp;<input type = "text" id = "studentAddress2" style="width: 98%;"></td>
+                      </tr>
+                      <tr>
+                        <th style="padding:0.2rem">나이</th>
                         <td style="padding:0.2rem" colspan='2'>&nbsp;<input type = "text" id = "studentAge"></td>
-                        <th style="padding:0.2rem">외국인여부</th>
+                        
+                        <th style="padding:0.2rem">상태</th>
                         <td style="padding:0.2rem">&nbsp;
-                          <select id = "studentForignYN">
-                            <option id = "studentForignY">Y</option>
-                            <option id = "studentForignN">N</option>
+                          <select id = "studentState">
+                            <option id = "studentStateA">재학</option>
+                            <option id = "studentStateB">휴원</option>
+                            <option id = "studentStateC">졸업</option>
                           </select>
                         </td>
-                        <th style="padding:0.2rem">장애여부</th>
-                        <td style="padding:0.2rem">&nbsp;
-                          <select id = "studentHandicapYN">
-                            <option id = "studentHandicapY">Y</option>
-                            <option id = "studentHandicapN">N</option>
-                          </select>
-                        </td>                
-                      </tr>
-                      <tr>
+
                         <th style="padding:0.2rem">소속반</th>
-                        <td style="padding:0.2rem" colspan = '2'>&nbsp;
+                        <td style="padding:0.2rem">&nbsp;
                           <input type = "radio" id = "studentClass1" name = "studentClass">
                           <label for = "studentClass1" style="display: initial;">1반</label>
                           <input type = "radio" id = "studentClass2" name = "studentClass">
@@ -410,16 +419,8 @@
                           <input type = "radio" id = "studentClass4" name = "studentClass">
                           <label for = "studentClass4" style="display: initial;">4반</label>
                         </td>                
-                        <th style="padding:0.2rem">상태</th>
-                        <td style="padding:0.2rem">&nbsp;
-                          <select id = "studentState">
-                            <option id = "studentStateA">재학</option>
-                            <option id = "studentStateB">휴원</option>
-                            <option id = "studentStateC">졸업</option>
-                          </select>
-                        </td>
-                        <th style="padding:0.2rem">학번</th>
-                        <td style="padding:0.2rem"> &nbsp;<input type = "text" id = "studentNum"></td>
+                        
+                        
                         <td style="text-align: center; padding:0.2rem">
                           <button class="btn btn-primary btn-sm" onclick="updateImg();" id = "studentImgU">등록</button>
                         </td>
@@ -560,7 +561,7 @@
                   <table id = "viewTable" class="table table-striped">
                     <tr>
                       <th></th>
-                      <th>구분</th>
+                      <th>번호</th>
                       <th>학번</th>
                       <th>원아명</th>
                       <th>성별</th>
