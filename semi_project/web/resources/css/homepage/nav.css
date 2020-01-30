@@ -1,0 +1,27 @@
+body{font-family: 'Noto Sans KR', 'sans-serif';}
+.dropdown-item{
+  font-size: 13px;
+}
+
+div.masthead{margin-bottom: 50px;
+background: no-repeat center center;
+background-attachment: scroll;
+position: relative;
+background-size: cover;}
+
+@media screen and (min-width: 768px){.header { height: 69px;}}
+@media screen and (max-width: 768px){.header { height: 69px;}}
+/* @media screen and (min-width: 1023px){.header { height: 99px;}} */
+@media only screen and (min-width: 992px){#mainNav .navbar-nav>li.nav-item>a {padding: 10px 20px;color: #626262;}}
+
+@media only screen and (min-width: 992px){#mainNav .navbar-nav>li.nav-item>a:focus, #mainNav .navbar-nav>li.nav-item>a:hover {color: black;}}
+
+#mainNav .navbar-nav>li.nav-item>a {
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 1px;
+text-transform: uppercase;}
+
+.dropdown-toggle::after {
+display: none;}
+
