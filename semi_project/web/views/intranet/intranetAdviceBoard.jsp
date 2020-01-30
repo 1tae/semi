@@ -1,13 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file = "../intranet/common/nav.jsp" %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>꿈나라어린이집 # 인트라넷</title>
-</head>
-<body>
+
+
 <!-- Begin Page Content -->
         <div class="container-fluid">
 
@@ -81,5 +76,3 @@
       <!-- End of Main Content -->
 
 <%@ include file = "../intranet/common/footer.jsp" %>
-</body>
-</html>
