@@ -12,6 +12,12 @@
 	<h1>아니 이거 외 안대?</h1>
 	
 	<h1>ddddddd</h1>
+<<<<<<< HEAD
 	dddd
+	내가바로 강남스타일
+	<h2>하연 테스트</h2>
+=======
+	ㅎ ㅏㅎ ㅏ연이가 테스트 해볼게요ㅎㅎ
+>>>>>>> branch 'master' of https://github.com/1tae/semi.git
 </body>
 </html>
