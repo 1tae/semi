@@ -180,7 +180,6 @@
 <!-- End of Main Content -->
 
 <!-- script -->
-
 <script src="/semi_project/resource/vendor/js/jquery.min.js"></script>
 <script src="/semi_project/resource/vendor/js/bootstrap.min.js"></script>
 <script src="/semi_project/resource/vendor/js/moment.min.js"></script>
