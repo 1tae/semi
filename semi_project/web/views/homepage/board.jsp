@@ -67,7 +67,7 @@
     <br><br>
   	<div class="container">
     	<div class="row">
-      		<div class="col-lg- col-md-10 mx-auto">
+      		<div class="col-lg-8 col-md-10 mx-auto">
             
         
             
@@ -141,6 +141,7 @@
                       </tbody>
                   </table>
                   <hr><br>
+                  <button class="btn float-right" style="background: #002c5f; color: white; width: 100px;" onclick="location='boardwrite.html'">글작성</button>
                   <div class="text-center d-flex justify-content-center">
                     <ul class="pagination">
 						<li class="page-item"><a class="page-link" href="#" >Previous</a></li>
@@ -159,29 +160,8 @@
 <hr>
 
 <!-- 하단 안내 -->
-  <footer>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-            <ul >
-              <li><a>이용약관</a></li>
-              <li><strong><a>개인정보처리방침</a></strong></li>
-              <li><a>책임의 한계와 법적고지</a></li>
-              <li><a>회원정보 고객센터 </a></li>
-            </ul>
-            <address >
-              <em class="copy">Copyright</em>
-              <em class="u_cri">©</em>
-              <a> Corp.</a>
-              <span class="all_r">All Rights Reserved.</span>
-            </address>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-  </footer>
+
+	<%@ include file = "common/footer.jsp" %>
 
     <script>
       $('tr').click(function(){
