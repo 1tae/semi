@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="com.kh.home.member.model.vo.*"%>
-<%
-	Member m = (Member)session.getAttribute("member");
-%>    
+    pageEncoding="UTF-8"%>
+
   
     
   <footer>
